@@ -8,11 +8,11 @@ export default function Home() {
     <main className="h-screen flex flex-col items-center justify-center bg-black text-white">
       
       <h1 className="text-5xl font-bold mb-4">
-        SD95的博客
+        SD95的个人网站
       </h1>
 
       <p className="text-lg text-gray-400 mb-6">
-        不是你小子真叫啊
+        花径不曾缘客扫，蓬门今始为君开
       </p>
       <Link href={"/blog"}>
        <button className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
@@ -24,20 +24,20 @@ export default function Home() {
       {show && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80">
           <div className="bg-white text-black p-6 rounded-lg text-center">
-            <p className="mb-4">叫爸爸就让你访问</p>
+            <p className="mb-4">请问您是真人吗？</p>
 
             <button
               className="mr-2 px-4 py-2 bg-black text-white rounded"
               onClick={() => setShow(false)}
             >
-              爸爸
+              我是真人
             </button>
 
             <button
               className="px-4 py-2 bg-gray-300 rounded"
-              onClick={() => alert("woc?滚！")}
+              onClick={() => alert("抱歉，您不能访问该网站")}
             >
-              不叫
+              不是
             </button>
           </div>
         </div>

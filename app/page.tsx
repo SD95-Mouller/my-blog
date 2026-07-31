@@ -18,22 +18,22 @@ export default function Home() {
       </button>
       </Link>
       <Link href={"/life"}>
-       <button className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
+       <button className="my-3 px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
         站长经历
       </button>
       </Link>
       <Link href={"/project"}>
-       <button className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
+       <button className="my-3 px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
         个人项目
       </button>
       </Link>
       <Link href={"/plan"}>
-       <button className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
+       <button className="my-3 px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
         后续更新
       </button>
       </Link>
       <Link href={"/about"}>
-       <button className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
+       <button className="my-3 px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
         自我介绍
       </button>
       </Link>

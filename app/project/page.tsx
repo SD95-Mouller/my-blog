@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function project(){
   return(
     <main className="min-h-screen bg-black text-white p-10">

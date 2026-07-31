@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 export default function Plan() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-black text-white px-6 py-12">

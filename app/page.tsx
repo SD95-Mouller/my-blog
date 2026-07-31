@@ -14,7 +14,7 @@ export default function Home() {
       
       <Link href={"/blog"}>
        <button className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
-        技术类文章
+        技术文章
       </button>
       </Link>
       <Link href={"/life"}>

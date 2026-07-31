@@ -11,9 +11,30 @@ export default function Home() {
       <p className="text-lg text-gray-400 mb-6">
         花径不曾缘客扫，蓬门今始为君开
       </p>
+      
       <Link href={"/blog"}>
        <button className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
-        Enter
+        技术类文章
+      </button>
+      </Link>
+      <Link href={"/life"}>
+       <button className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
+        站长经历
+      </button>
+      </Link>
+      <Link href={"/project"}>
+       <button className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
+        个人项目
+      </button>
+      </Link>
+      <Link href={"/plan"}>
+       <button className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
+        后续更新
+      </button>
+      </Link>
+      <Link href={"/about"}>
+       <button className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
+        自我介绍
       </button>
       </Link>
 

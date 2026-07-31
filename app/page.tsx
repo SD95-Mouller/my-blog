@@ -19,7 +19,7 @@ export default function Home() {
       </Link>
       <Link href={"/life"}>
        <button className="my-3 px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
-        站长经历
+        站长往事
       </button>
       </Link>
       <Link href={"/project"}>

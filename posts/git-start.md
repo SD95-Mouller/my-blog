@@ -12,7 +12,6 @@ tags: ["技术", "git"]
 ①打开https://git-scm.com/install/windows
 
 ②点击Git for Windows/x64 Setup(大部分情况都是点击这个，具体还是要看个人电脑)
-![图片](git官网安装页面.png "安装git")
 
 ③之后一路默认并点击下一步（Next）即可
 

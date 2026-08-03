@@ -12,7 +12,7 @@ export default async function Post(props: { params: Promise<{ slug: string }> })
     <main className="min-h-screen bg-black text-white p-10">
       {/* 🔴 新增：返回博客列表按钮 */}
       <Link 
-        href="/blog" 
+        href="/life" 
         className="text-gray-400 hover:text-white mb-6 inline-block transition-colors"
       >
         ← 返回博客列表

@@ -25,7 +25,7 @@ export default async function Post(props: { params: Promise<{ slug: string }> })
 
       {/* 文章内容 */}
       <div
-        className="max-w-none"
+        className="prose prose-invert max-w-none"
         dangerouslySetInnerHTML={{ __html: post.contentHtml }}
       />
     </main>

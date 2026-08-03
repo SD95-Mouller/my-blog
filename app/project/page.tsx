@@ -1,11 +1,16 @@
+"use client";
 import Link from "next/link";
-export default function project(){
-  return(
-    <main className="min-h-screen bg-black text-white p-10">
+export default function Project() {
+  return (
+    <main className="min-h-screen flex flex-col items-center justify-center bg-black text-white px-6 py-12">
       <Link href="/">
-        <p className="mb-6">返回首页</p>
+        <p className="mb-6">⬅返回首页</p>
       </Link>
-      <h1 className="text-4xl font-bold mb-6">站长还没有个人项目</h1>
+      <div className="max-w-xl border border-gray-700 p-8 rounded-xl hover:border-gray-400 transition-all duration-300">
+        <p className="text-gray-300 text-lg leading-relaxed">
+          站长还没有个人项目。
+        </p>
+      </div>
     </main>
   );
 }

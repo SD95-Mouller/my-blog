@@ -24,7 +24,7 @@ export default async function Blog() {
 
       <div className="space-y-4">
         {filteredPosts.map((post) => (
-          <Link key={post.id} href={`/blog/${post.id}`}>
+          <Link key={post.id} href={`/life/${post.id}`}>
             <div className="p-4 border border-gray-700 rounded cursor-pointer hover:bg-gray-800">
               <h2 className="text-xl font-semibold">{post.title}</h2>
               <p className="text-gray-400">{post.date}</p>

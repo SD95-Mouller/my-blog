@@ -9,7 +9,7 @@ export default function About() {
       <div className="max-w-xl border border-gray-700 p-8 rounded-xl hover:border-gray-400 transition-all duration-300">
         <h1 className="text-4xl font-bold mb-6">关于我</h1>
         <p className="text-gray-300 text-lg leading-relaxed">
-          你好，我是一个大学生，在2025年升入大学，在2026年7月分流到软件工程专业。
+          你好，我是一个大学生，在2025年升入大学，在2026年7月分流到软件工程专业。我正在学习ai全栈开发。
         </p>
       </div>
     </main>

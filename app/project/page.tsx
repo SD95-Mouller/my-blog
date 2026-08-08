@@ -6,11 +6,11 @@ export default function Project() {
       <Link href="/">
         <p className="mb-6">⬅返回首页</p>
       </Link>
-      <div className="max-w-xl border border-gray-700 p-8 rounded-xl hover:border-gray-400 transition-all duration-300">
-        <p className="text-gray-300 text-lg leading-relaxed">
-          站长还没有个人项目。
-        </p>
-      </div>
+        <Link href={"/project/Vworld"}>
+       <button className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">
+        ai沉浸互动
+      </button>
+      </Link>
     </main>
   );
 }
